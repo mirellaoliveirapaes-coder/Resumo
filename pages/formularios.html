@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mirella Paes">
+    <meta name="description" content="Resumos das aulas de HTML e CSS">
+    <meta name="keywords" content="html5, css, tecnologia">
+    <title>Resumo das aulas de HTML</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header>
+ <nav>
+   
+    <ul>
+        <li id="lista-menu">Menu
+           
+            <ul id="menu-lista">
+                <li>
+                    <a href=./index.html>Home</a>
+                </li>    
+                <li>
+                    <a href=./pages/transiton.html>Transitions</a>
+
+                </li>
+                <li>
+                    <a href=./pages/fontes.html>fontes</a>
+                </li>
+                <li>
+                    <a href=./pages/display.html>display</a>
+                </li>
+                <a href="./pages/boxsizing.html">boxsizing</a>
+                <li>
+                    <a href=./pages/position.html>Position</a>
+                </li>
+                <li>
+                    <a href=./pages/listas.html>Listas</a>
+                </li>
+                <li>
+                    <a href=./pages/overflow.html>overflow</a>
+                </li>
+                <li>
+                    <a href=./pages/tabela.html>tabela</a>
+                </li>
+                <li>
+                    <a href=./pages/border-radius.html>border Radius</a>
+                </li>
+                <li>
+                    <a href=./pages/box-shadow.html>Box Shadow</a>
+                </li>
+                <li>
+                    <a href=./pages/gradiente.html>Gradiente</a>
+                </li>
+                <li>
+                    <a href=./pages/transiton.html>Transitions</a>
+                </li>
+                 <li>
+                    <a href=./pages/formularios.html>Formularios</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+            
+        </nav>
+    </header>
+
+
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>Dados pessoais </legend>
+
+                <label>Nome Competo</label>
+                <input type="text" id="nome" placeholder="Digite seu nome completo" required>
+<br>
+                <label>Email</label>
+                <input type="email" id="email"placeholder="gmail@example.com" required>
+<br>
+                <label for="filhos">Numero de filhos</label>
+                <input type="number" id="filhos" min="o" max="1000">
+<br>
+
+            <label for="Nascimento"> Data de Nascimento</label>
+            <input type="date" id="nascimento" min="1990-01-01" max="2009-12-31">
+        <br>
+       <p>Sexo</p>
+        <input type="radio" id="sexo" name="sexo" value="M"> Masculino
+        <input type="radio" id="sexo" name="sexo" value="F"> Femenino
+<br>
+        <label for="estado"> Estado</label>
+        <select name="estado" id="estado">
+            <option value="0"> Selecione</option>
+             <option value="SP"> São Paulo</option>
+              <option value="RJ"> Rio de Janeiro</option>
+               <option value="MG"> Minas gerais</option>
+
+
+
+        </select>
+            </fieldset>
+           
+            <fieldset>
+                <legend>Area de interesse</legend>
+                <label><input type="checkbox" name="html" value="html">HTML</label>
+                    <label><input type="checkbox" name="css" value="css">CSS</label>
+                        <label><input type="checkbox" name="javascrept" value="javascrept">JavaScript</label>
+            </fieldset>
+            <fieldset>
+                <legend>Mensagem</legend>
+                <textarea name="msg" id="msg" cols="30" rows="10" maxlength="10"></textarea>   
+                <textarea name="msg" id="msg" cols="30" rows="10" readonly>Aqui entra o texto de contrato para você ser aceito</textarea>         
+              <label><input type="checkbox" checked>li e aceito.</label>
+<br>
+              <input type="range" min="0" max="10" step="0.2"> <br>
+              <input type="tiem">
+              <input type="color"><br>
+              <select size="5"multiplo>
+                <option> opção 1</option>
+                <option> opção 2</option>
+                <option> opção 3</option>
+                <option> opção 4</option>
+
+              </select>
+
+            </fieldset>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
+    </main>
+
+
+
+
+    <footer>
+
+    </footer>
+</body>
+</html>
